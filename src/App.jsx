@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import MeasurementsForm from './components/MeasurementsForm'
 import ProjectLayout from './components/ProjectLayout'
-import { calculateBoardLayout, getMixedBoardLengthLayout } from './utils/ProjectCalculator'
+import { calculateBoardLayout, getMixedBoardLengthLayout } from 'woodcutting-calculator'
 
 function App() {
   const UNITS = {IN: "In", CM: "cm"}

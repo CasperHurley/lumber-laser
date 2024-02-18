@@ -1,3 +1,5 @@
+// MIGRATED TO NPM PACKAGE woodcutting-calculator
+
 export function calculateBoardLayout(stockBoardLength, measurements) {
     if (measurements.some(cut => cut > stockBoardLength)) {
         console.log(`Stock board length ${stockBoardLength} is too small for project`)
